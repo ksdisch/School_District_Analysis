@@ -41,10 +41,16 @@ The list bulleted below reflects how different aspects of the initial analysis w
 - Scores by School Type: This dataframe was unaffected after rounding to 1 decimal place.
 
 
-## Summary
+## Summary of Relevant Changes After Updating the Analysis
 
-### District Summary
-The metrics for the district were worse, but only slightly. There reductions in average math score (-0.054838), average reading score (-0.022044), percentage of students passing math (-0.220461), percentage passing reading (-0.145797), and percentage of students passing overall (-0.316608).
+### Decreased Percentage of Students in the District Passing Overall
+The greatest reduction in the district summary was the percentage of students passing both math and reading in the school district. This makes sense given that it is the most restrictive criteria, and it would make sense foracademic dishonesty to result in inflated performance in the most difficult measure.
+
+### Increased Average Reading Score for Thomas High School
+Interestingly, the average reading score at THS increased (0.047152).The fact average reading score increased despite percentage of students passing decreased suggests there may have been a few very low reading score outliers dragging the average down.
+
+### Decreased Average Reading Score in the District
+The average reading score was the least affected in the district summary, only decreasing by (0.022044) after removing the Thomas High School ninth grade scores. This makes sense for this to be the least affected metric if it is true that there were a few exceedingly low reading score outliers in the ninth grade at Thomas High School.
 
 ### Top Performing Schools
-Thomas High School was the second highest performing school both before and after removing their ninth grade scores. The only differences were slight reductions in average math score, average reading score, percentage passing math, percentage passing reading, and percentage passing overall. The differences were slight enough that they would not shown up if this dataframe were rounded to one decimal place.
+Thomas High School was the second highest performing school both before and after removing their ninth grade scores. Interestingly, the average reading score at THS increased (0.047152). The other differences were slight reductions in average math score (-0.067412), percentage passing math (-0.086481), percentage passing reading (-0.290130), and percentage passing overall (-0.317688). The differences were slight enough that they would not shown up if this dataframe were rounded to one decimal place. The fact average reading score increased despite percentage of students passing decreased suggests there may have been a few very low reading score outliers dragging the average down. The fact that Thomas High School was still the second highest performing school even after removing the scores makes the scandal seem pointless. 
